@@ -19,7 +19,6 @@ const mapStateToProps = state => {
   return {
     appLoaded: state.common.appLoaded,
     appName: state.common.appName,
-    appName: state.common.appName,
     currentUser: state.common.currentUser,
     redirectTo: state.common.redirectTo
   }};
