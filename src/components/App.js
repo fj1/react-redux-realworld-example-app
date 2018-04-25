@@ -49,6 +49,11 @@ class App extends React.Component {
   }
 
   render() {
+    // ***** demonstrate console messages *****/
+    // console.log(`i'm a console log`);
+    // console.warn(`i'm a console warn`);
+    // console.error(`i'm a console error`);
+
     if (this.props.appLoaded) {
       return (
         <div>
