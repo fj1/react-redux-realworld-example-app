@@ -10,6 +10,8 @@ import {
   PROFILE_PAGE_UNLOADED
 } from '../constants/actionTypes';
 
+import arkleseizure from '../components/great-green-arkleseizure.jpg';
+
 const EditProfileSettings = props => {
   if (props.isUser) {
     return (
@@ -125,7 +127,7 @@ class Profile extends React.Component {
             <div className="row">
               <div className="col-xs-12 col-md-10 offset-md-1">
 
-                <img src={profile.image} className="user-img" alt={profile.username} />
+                <img src={arkleseizure} className="user-img" alt={profile.username} />
                 <h4>{profile.username}</h4>
                 <p>{profile.bio}</p>
 
